@@ -4,17 +4,17 @@
 class Glut < Formula
   desc "Coding agent for the terminal that runs every command in an OS sandbox"
   homepage "https://glut-ai.com"
-  version "0.1.1"
+  version "0.1.2"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.1/glut-aarch64-apple-darwin.tar.gz"
-      sha256 "1737a8851eaabb28e42d0076829a259c7eb9b62c5d9ec3075705aadc456aed95"
+      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.2/glut-aarch64-apple-darwin.tar.gz"
+      sha256 "16a4d786b2c2e552fea6fcf736a367283620d0a576ab2a5852adb6cd0e0e757f"
     end
     on_intel do
-      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.1/glut-x86_64-apple-darwin.tar.gz"
-      sha256 "9b2b00a507ee84a0dfd872788a8f03c8b910b2a44d1ecc2e1a894e327df21e8c"
+      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.2/glut-x86_64-apple-darwin.tar.gz"
+      sha256 "e9306db6429d5cd31c7ac49fa46b19cfb7c9160ef49b282c1a756e97a0eca0d9"
     end
   end
 
@@ -23,12 +23,12 @@ class Glut < Formula
     depends_on "bubblewrap"
 
     on_arm do
-      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.1/glut-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d4ceacdd41663dd5a9146f187426bcdb219aaed234f898dd824f7c4dc697a397"
+      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.2/glut-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "75f580bd28428601220975058c4cb70f2223e81f2da584e2484432a8ba7549c6"
     end
     on_intel do
-      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.1/glut-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "7e72f6777b255568cf2552854115e7965cc6d2a7eae2efb71358f91e4c90cd58"
+      url "https://github.com/axiomata-labs/glut/releases/download/v0.1.2/glut-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4ea8b16385131c4e9a1877f876aec36686bdbfd761782d078390b5f8195898dd"
     end
   end
 
